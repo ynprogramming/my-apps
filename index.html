@@ -4,13 +4,127 @@
   <meta charset="UTF-8">
   <title>My App Hub</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { font-size: 36px; }
-    p { font-size: 20px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-top: 40px;
+    }
+
+    .section-title {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .app-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .app-card {
+      background-color: #d5cfff;
+      padding: 20px;
+      border-radius: 12px;
+      width: 120px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .app-card:hover {
+      transform: scale(1.05);
+    }
+
+    .app-card img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .app-name {
+      font-weight: bold;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <h1>🚀 Welcome to My App Hub</h1>
-  <p>All apps will appear here soon!</p>
+
+  <div class="section">
+    <div class="section-title">Trending Apps</div>
+    <div class="app-grid">
+      <div class="app-card">
+        <img src="webgreets.png" alt="Webgreets">
+        <div class="app-name">Webgreets</div>
+      </div>
+      <div class="app-card">
+        <img src="versatile.png" alt="Versatile">
+        <div class="app-name">Versatile</div>
+      </div>
+      <div class="app-card">
+        <img src="pelican.png" alt="Pelican">
+        <div class="app-name">Pelican</div>
+      </div>
+      <div class="app-card">
+        <img src="ar_academy.png" alt="AR Academy">
+        <div class="app-name">AR Academy</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Suggested Apps</div>
+    <div class="app-grid">
+      <div class="app-card">
+        <img src="versatile.png" alt="Versatile">
+        <div class="app-name">Versatile</div>
+      </div>
+      <div class="app-card">
+        <img src="khatabook.png" alt="Khata Book">
+        <div class="app-name">Khata Book</div>
+      </div>
+      <div class="app-card">
+        <img src="paytm.png" alt="Paytm">
+        <div class="app-name">Paytm</div>
+      </div>
+      <div class="app-card">
+        <img src="dream11.png" alt="Dream11">
+        <div class="app-name">Dream11</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Sharp your skills with learning</div>
+    <div class="app-grid">
+      <div class="app-card">
+        <img src="ar_academy.png" alt="AR Academy">
+        <div class="app-name">AR Academy</div>
+      </div>
+      <div class="app-card">
+        <img src="unacademy.png" alt="Unacademy">
+        <div class="app-name">Unacademy</div>
+      </div>
+      <div class="app-card">
+        <img src="udemy.png" alt="Udemy">
+        <div class="app-name">Udemy</div>
+      </div>
+      <div class="app-card">
+        <img src="byjus.png" alt="Byju's">
+        <div class="app-name">Byju's</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
